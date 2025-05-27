@@ -13,7 +13,7 @@ Internet Connection: Required to connect to Gemini API
 4. .\venv\Scripts\activate
 5. pip install streamlit pandas requests google.generativeai
 6. run "streamlit run health.py" inside terminal (it will rediret to the streamlit interface where we can ask the required medication details to the Bot)
-7.Create your own gemini API Key and replace it with the exisisting one in the code Line 9 if it is showing error related to API Key when you are running "streamlit run health.py"
+7. Create your own gemini API Key and replace it with the exisisting one in the code Line 9 if it is showing error related to API Key when you are running "streamlit run health.py"
 
 🎯 Objective
 The goal of this project is to build a conversational health assistant that:

@@ -3,7 +3,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Load dummy CSV data
-data =  pd.read_csv(r"D:\Health_Hackathon\dummy_health_data_bot.csv")
+data =  pd.read_csv("dummy_health_data_bot.csv")
 
 # Configure Gemini API
 API_KEY = "AIzaSyCg5fuZpt16k0wyQabRyqgVVm3CxFsyZmA"  # Replace with your actual Gemini API key

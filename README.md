@@ -8,12 +8,11 @@ Internet Connection: Required to connect to Gemini API
 
 **Steps to follow:**
 1. clone the git repository
-2. run the app.py file in the visual studio
-3. run "streamlit run app.py" inside terminal (it will rediret to the streamlit interface where we can ask the required medication details to the Bot)
-If you are facing any issue when we are ruinning the "streamlit run app.ay" please run the below commands if we are missing any plugins.
-1. py -3.11 -m venv venv
-2. .\venv\Scripts\activate
-3. pip install streamlit pandas requests google.generativeai
+2. Create your own virtual environment and install required packages from requirements.txt
+3. py -3.11 -m venv venv
+4. .\venv\Scripts\activate
+5. pip install streamlit pandas requests google.generativeai
+6. run "streamlit run app.py" inside terminal (it will rediret to the streamlit interface where we can ask the required medication details to the Bot)
 
 🎯 Objective
 The goal of this project is to build a conversational health assistant that:
